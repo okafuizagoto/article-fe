@@ -22,7 +22,7 @@ setValues((s) => ({ ...s, [name]: value }))
 
 async function publish() {
  try {
-    await createArticle({ ...values, status: "Publish" })
+    await createArticle({ ...values, status: STATUS.PUBLISHED })
     enqueueSnackbar("Berhasil publish!", { variant: "success" })
     navigate("/all-posts")
   } catch (err) {
