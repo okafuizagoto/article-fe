@@ -1,5 +1,9 @@
 ## Getting Started
 1. install dengan yarn
+```bash
+yarn
+```
+
 2. run dengan yarn start
 
 First, run the development server:
